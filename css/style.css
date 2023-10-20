@@ -116,18 +116,20 @@ p {
     letter-spacing: 0.28px;
   }
 
-  .address-itee:hover,
-  .address-itee:focus{
-    color: var(--accent-color);
+  .address-itee:focus,
+  .address-itee:hover{
+    cursor: var(--accent-color);
   }
 
   .address {
+    display: flex;
+    gap: 50px;
     margin-left: 290px;
     padding-top: 32px;
     padding-bottom: 32px;
     font-style: normal;
     cursor: pointer;
-  }
+}
 
   .address-itee{
     color: #757575;
@@ -452,3 +454,14 @@ p {
   .section-portfolio-img {
     padding-right: 30px;
   }
+
+  .section-portfolio {
+    padding-top: 94px;
+    padding-bottom: 94px;
+   }
+   
+   .section-portfolio-text{
+      display: flex;
+      flex-wrap: wrap;
+    }
+       
