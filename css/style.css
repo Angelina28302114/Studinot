@@ -116,8 +116,8 @@ p {
     letter-spacing: 0.28px;
   }
 
-  .address-itee:focus,
-  .address-itee:hover{
+  .address-itee:hover,
+  .address-itee:focus{
     cursor: var(--accent-color);
   }
 
