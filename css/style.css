@@ -307,6 +307,10 @@ p {
   justify-content: center;
 }
 
+.section-portfolio-text {
+  padding-bottom: 94px;
+}
+
  .section-img-title {
   color: var(--menu-color);
   text-align: center;
