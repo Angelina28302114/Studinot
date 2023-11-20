@@ -291,6 +291,7 @@ p {
 
 .section-img-list > .section-img-item {
   flex-basis: calc((100% - 90px) / 4);
+  background-color: #ffffff;
   
 }
 
