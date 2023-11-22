@@ -219,6 +219,10 @@ p {
     line-height: 60px; 
     letter-spacing: 2.64px;
     text-transform: uppercase;
+
+    margin-right: auto;
+    margin-left: auto;
+    width: 696px;
     }
     
 
