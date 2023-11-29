@@ -413,6 +413,7 @@ p {
   
   .section-portfolio-buton:hover,
   .section-portfolio-buton:focus {
+    color: white;
     background-color: var(--accent-color);
     /* cursor: var(--cursor); */
     cursor: pointer;
