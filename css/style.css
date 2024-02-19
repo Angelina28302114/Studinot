@@ -145,6 +145,8 @@ p {
     cursor: var(--accent-color);
     cursor: pointer;
   }
+
+
     
   .header-menu-item{
     display: flex;
@@ -202,6 +204,11 @@ p {
   .address-iteem:not(:first-child){
     margin-left: 50px; 
   }
+
+  .address-svg {
+    margin-right: 10px;
+  }
+
 
   .section{
     background-color: var(--back-background);
@@ -310,6 +317,14 @@ p {
   padding-bottom: 94px;
 }
 
+.section-img-list-two {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 16px;
+  margin-bottom: 30px;
+}
+
  .section-portfolio-list{
   gap: 8px;
   display: flex;
@@ -358,7 +373,7 @@ p {
   font-weight: 400;
   line-height: normal;
   letter-spacing: 0.48px;
-  padding-bottom: 30px;
+  /* padding-bottom: 30px; */
  }
 
  .footer {
@@ -614,3 +629,37 @@ p {
     margin-bottom: 30px;
     padding: 25px 100px;
   }
+
+  /* customers */
+
+.customers {
+
+}
+
+.customers-title {
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--menu-color);
+  margin-top: 94px;
+}
+
+.customers-list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 50px;
+  margin-bottom: 94px;
+}
+
+.customers-svg {
+  fill: #afb1b8;
+}
+
+.customers-box {
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  width: 170px;
+  height: 92px;
+}
