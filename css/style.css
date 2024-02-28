@@ -75,12 +75,14 @@
 
   .header{
     display: flex;
-    border: 1px solid #ececec;
-    /* position: fixed;
+    border-bottom: 1px solid #ececec;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    background: #ffffff; */
+    background: #ffffff;
+
+    z-index: 100;
   }
 
   .header-logo { 
@@ -422,6 +424,9 @@ padding-bottom: 20px;
   width: 100%;
   position: absolute;
   bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
  }
 
  .section-we-title-two {
