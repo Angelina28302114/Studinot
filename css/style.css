@@ -565,7 +565,7 @@ padding-bottom: 20px;
   height: 92px;
   border-radius: 4px;
   border: 1px solid var(--color-svg);
-  padding: 20px 62px;
+  padding: 24px 45px;
 }
 
 .customers-list > .customers-item:hover,
