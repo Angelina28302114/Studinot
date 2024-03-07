@@ -350,14 +350,58 @@
 
 </footer>
 
-<!-- backdrop -->
+<!-- backdrop modal -->
 <div class="backdrop is-hidden" data-modal>
     <div class="modal">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus minus fugiat repellendus illum sit ab
-        fugit dolores eos perferendis earum quibusdam, perspiciatis officiis voluptatem assumenda ipsam quae tempora nam
-        modi rem sint minima blanditiis delectus. Sunt quod sapiente, beatae nobis quo ad laborum itaque repellat sed.
-        Ratione nesciunt consectetur quod.</p>
-      <button type="submit" data-modal-close>закрити модальне вікно</button>
+        <h2 class="modal-title">Залиште свої дані, ми вам передзвонимо</h2>
+        <button type="submit" class="modal-btn">
+            <svg class="modal-icon-close" width="18" height="18">
+                <use href="./svg/symbol-defs.svg#icon-close"></use>
+            </svg>
+        </button>
+        <form class="modal-form">
+        <div class="form-fiel">
+            <label for="username" class="form-label">Ім'я</label>
+            <div class="modal-position">
+                <input type="text" id="username" class="form-input" autofocus required>
+                <svg class="modal-icon" width="18" height="18">
+                    <use href="./svg/symbol-defs.svg#icon-person"></use>
+                </svg>
+            </div>
+        </div>
+
+        <div class="form-fiel">
+            <label for="phone" class="form-label">Телефон</label>
+            <div class="modal-position">
+                <input type="text" id="username" class="form-input" autofocus required>
+                <svg class="modal-icon" width="18" height="18">
+                    <use href="./svg/symbol-defs.svg#icon-phone"></use>
+                </svg>
+            </div>
+        </div>
+
+        <div class="form-fiel">
+            <label for="email" class="form-label">Пошта</label>
+            <div class="modal-position">
+                <input type="text" id="username" class="form-input" autofocus required>
+                <svg class="modal-icon" width="18" height="18">
+                    <use href="./svg/symbol-defs.svg#icon-email"></use>
+                </svg>
+            </div>
+        </div>
+
+        <div class="form-fiel">
+            <label for="username" class="form-label">Коментар</label>
+            <textarea name="feedback" id="username" rows="5" class="feedback" placeholder="Введіть текст"></textarea>
+        </div>
+
+        <div class="checkbox-box">
+            <input type="checkbox" class="form-checkbox">
+            <p class="form-text">Погоджуюся з розсилкою та приймаю<a href="" class="form-link form-text">Умови договору</a></p>
+        </div>
+        </form>
+
+      <button class="modal-submit" type="submit" data-modal-close>Відправити</button>
     </div>
   </div>
 
