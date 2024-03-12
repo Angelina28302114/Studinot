@@ -789,16 +789,7 @@ padding-bottom: 20px;
   margin-bottom: 20px;
 }
 
-/* .footer-div-three-label {
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  border-radius: 4px;
-  width: 358px;
-  height: 50px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-background: rgba(33, 150, 243, 0);
-} */
-
-.footer-div-three-input {
+.footer-form-input {
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
   width: 358px;
@@ -806,6 +797,9 @@ background: rgba(33, 150, 243, 0);
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: rgba(33, 150, 243, 0);
   margin-right: 12px;
+  outline: none;
+  cursor: pointer;
+  padding-left: 16px;
 }
 
 .footer-div-three-button { 
@@ -819,7 +813,7 @@ background: rgba(33, 150, 243, 0);
   width: 200px;
   height: 50px;
   background-color: var(--accent-color);
-  border: var(--accent-color);
+  border: none;
 }
 
 .footer-svg-one{
