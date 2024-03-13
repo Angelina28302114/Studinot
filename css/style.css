@@ -816,9 +816,20 @@ padding-bottom: 20px;
   border: none;
 }
 
+.footer-div-three-button:hover,
+.footer-div-three-button:focus {
+  background-color: var(--title-big-color);
+  color: var(--accent-color);
+}
+
 .footer-svg-one{
   fill: currentColor;
   margin-left: 10px;
+}
+
+.footer-svg-one:hover,
+.footer-svg-one:focus {
+  fill: var(--accent-color);
 }
 
 /* modal */
