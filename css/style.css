@@ -827,10 +827,6 @@ padding-bottom: 20px;
   margin-left: 10px;
 }
 
-.footer-svg-one:hover,
-.footer-svg-one:focus {
-  fill: var(--accent-color);
-}
 
 /* modal */
 .backdrop{
