@@ -692,6 +692,11 @@ padding-bottom: 20px;
     margin-bottom: 20px;
 }
 
+.footer-address-logo:hover,
+.footer-address-logo:focus {
+  color: var(--title-big-color);
+}
+
 .footer-box {
   flex-basis: calc(50% - 15px);
  }
@@ -718,6 +723,11 @@ padding-bottom: 20px;
   font-style: normal;
  }
 
+ .footer-logo:hover,
+ .footer-logo:focus {
+  color: var(--accent-color);
+}
+
  .footer-title {
   font-weight: 700;
   font-size: 14px;
@@ -737,6 +747,11 @@ padding-bottom: 20px;
   margin-bottom: 9px;
  }
 
+ .footer-address-item:hover,
+ .footer-address-item:focus {
+  color: var(--accent-color);
+}
+
  .footer-box-one {
   margin-right: 70px;
  }
@@ -750,6 +765,12 @@ padding-bottom: 20px;
     letter-spacing: 0.42px;
     display: block;
    } 
+
+   .footer-address-text:hover,
+   .footer-address-text:focus {
+    color: var(--accent-color);
+  }
+  
 
   .footer-list-two {
     display: flex;
