@@ -696,6 +696,41 @@ padding-bottom: 20px;
     flex-basis: calc((100% - 60px) / 3);
   }
 
+  .section-portfolio-link {
+  }
+
+  .section-portfolio-link:hover .overley{
+    transform: translateY(0);
+  }
+
+  .section-portfolio-box {
+  }
+
+  .overley-thumb {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .overley {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* height: 100%; */
+    background-color: rgba(33, 150, 243, 0.9);
+    transform: translateY(100%);
+    transition: transform 250ms;
+  }
+
+  .overley-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 156%;
+    letter-spacing: 0.03em;
+    color: var(--title-big-color);
+    padding: 63px 24px;
+  }
+
 /* footer */
   .footer-address-logo {
     color: var(--accent-color);
@@ -1070,4 +1105,4 @@ padding-bottom: 20px;
   background-color: var(--title-big-color);
   color: var(--accent-color);
   cursor: pointer;
-}
+} 
