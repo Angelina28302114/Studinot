@@ -110,7 +110,23 @@
       font-weight: 500;
       line-height: normal;
       letter-spacing: 0.28px;
+
+
+
+      transition-property: color;
+      transition-duration: 250ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
+
+  .header-menu:focus{
+    color: var(--accent-color);
+}
+
+.header-menu:hover,
+.header-menu:focus {
+      color: var(--accent-color);
+      cursor: var(--cursor);
+}
 
   .current {
     position: relative;
@@ -161,24 +177,9 @@
       margin-right: 50px;
   } 
       
-  .header-menu:focus{
-      color: var(--accent-color);
-  }
-
-  .header-menu:hover,
-  .header-menu:focus {
-        color: var(--accent-color);
-        cursor: var(--cursor);
-  }
-      
   .header > .container{
       display: flex;
   }  
-  
-  .address-itee:hover,
-  .address-itee:focus{
-    color: var(--accent-color);
-  }
 
   .address {
       display: flex;
@@ -196,13 +197,20 @@
       font-style: normal;
       font-weight: 500;
       line-height: normal;
+
+
+
+      transition-property: color;
+      transition-duration: 250ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
-  
+
   .address-itee:hover,
   .address-itee:focus {
-      cursor: var(--accent-color);
+      color: var(--accent-color);
       cursor: pointer;
-  }
+}
+
 
   .address-item{
       margin-right: 50px;
@@ -278,6 +286,12 @@
     display: flex;
     margin: 0px auto;
     padding: 10px 32px;
+
+
+
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .section-button:hover,
@@ -513,6 +527,12 @@ padding-bottom: 20px;
   border-radius: 50%;
   fill: var(--color-svg);
   background-color: var(--title-big-color);
+
+
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .section-img-link:hover,
@@ -582,6 +602,12 @@ padding-bottom: 20px;
   border-radius: 4px;
   border: 1px solid var(--color-svg);
   padding: 24px 45px;
+
+
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .customers-list > .customers-item:hover,
@@ -599,6 +625,12 @@ padding-bottom: 20px;
 
 .customers-svg {
   fill: currentColor;
+
+
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .customers-svg:hover,
@@ -634,6 +666,12 @@ padding-bottom: 20px;
  font-weight: 500;
  line-height: 26px;
  letter-spacing: 0.48px;
+
+
+
+ transition-property: color;
+ transition-duration: 250ms;
+ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .section-portfolio-buton:hover,
@@ -796,6 +834,12 @@ padding-bottom: 20px;
   letter-spacing: 0.42px;
   display: block;
   margin-bottom: 9px;
+
+
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
  }
 
  .footer-address-item:hover,
@@ -815,6 +859,12 @@ padding-bottom: 20px;
     line-height: 1.71;
     letter-spacing: 0.42px;
     display: block;
+
+
+
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
    } 
 
    .footer-address-text:hover,
@@ -843,6 +893,12 @@ padding-bottom: 20px;
   border-radius: 50%;
   fill: var(--title-big-color);
   background-color: rgba(255, 255, 255, 0.1);
+
+
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-link:hover,
@@ -901,6 +957,12 @@ padding-bottom: 20px;
   display: flex;
   align-items: center;
   cursor: pointer;
+
+
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-div-three-button:hover,
@@ -1098,6 +1160,12 @@ padding-bottom: 20px;
   margin-right: auto;
 
   border: none;
+
+
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-submit:focus,
