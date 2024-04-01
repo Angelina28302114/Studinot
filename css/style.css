@@ -290,7 +290,7 @@
 
 
 
-    transition-property: color;
+    transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -670,7 +670,7 @@ padding-bottom: 20px;
 
 
 
- transition-property: color;
+ transition-property: background-color;
  transition-duration: 250ms;
  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -973,7 +973,7 @@ padding-bottom: 20px;
 
 
 
-  transition-property: color;
+  transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -1046,6 +1046,12 @@ padding-bottom: 20px;
   border-radius: 100%;
   fill: var(--logoo-nomber-two-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
+
+
+
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-btn:hover,
@@ -1176,7 +1182,7 @@ padding-bottom: 20px;
 
 
 
-  transition-property: color;
+  transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
