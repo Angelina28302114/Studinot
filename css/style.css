@@ -780,6 +780,12 @@ padding-bottom: 20px;
     letter-spacing: 0.78px;
     display: block;
     margin-bottom: 20px;
+
+
+
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-address-logo:hover,
@@ -811,6 +817,12 @@ padding-bottom: 20px;
   font-family: Raleway;
   font-size: 26px;
   font-style: normal;
+
+
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
  }
 
  .footer-logo:hover,
