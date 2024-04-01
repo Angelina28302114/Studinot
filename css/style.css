@@ -126,6 +126,7 @@
 .header-menu:focus {
       color: var(--accent-color);
       cursor: var(--cursor);
+      cursor: pointer;
 }
 
   .current {
