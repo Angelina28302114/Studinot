@@ -1022,7 +1022,12 @@ padding-bottom: 20px;
   position: absolute;
   top: 50%;
   left: 50%;
+
+  transition-property: transform;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transform: translate(-50%, -50%);
+  
   width: 528px;
   min-height: 581px;
   padding: 40px;
