@@ -1,5 +1,5 @@
 .section {
-    background-color: var(--back-background);
+    background-color: $back-background;
     padding-top: 200px;
     padding-bottom: 200px;
     background-image: linear-gradient(rgba(47, 48, 58, 0.40), rgba(47, 48, 58, 0.40)), url(../img/hero.png);
@@ -15,7 +15,7 @@
     font-size: 44px;
     font-weight: 900;
     line-height: 1.36; 
-    color: var(--title-big-color);
+    color: $title-big-color;
     margin-bottom: 30px;
     font-family: Roboto;
     font-style: normal;
@@ -30,11 +30,11 @@
     
   
   .section-button {
-      color: var(--button-background);
+      color: $accent-color;
       font-size: 16px;
       color: white;
-      background-color:  #2196F3;
-      text-decoration: #2196F3;
+      background-color:  $accent-color;
+      text-decoration: $accent-color;
       border: none;
       border-radius: 4px;
       line-height: 1.875; 
@@ -49,6 +49,6 @@
   
   .section-button:hover,
   .section-button:focus {
-    background-color: var(--title-big-color);
-    color: var(--accent-color);
+    background-color: $title-big-color;
+    color: $accent-color;
   } 

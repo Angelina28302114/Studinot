@@ -41,7 +41,7 @@
     font-size: 20px;
     letter-spacing: 0.03em;
     text-align: center;
-    color: var(--menu-color);
+    color: $menu-color;
     margin-bottom: 12px;
   }
   
@@ -56,7 +56,7 @@
     padding: 6px;
     background: transparent;
     border-radius: 100%;
-    fill: var(--logoo-nomber-two-color);
+    fill: $logoo-nomber-two-color;
     border: 1px solid rgba(0, 0, 0, 0.1);
   
   
@@ -68,12 +68,12 @@
   
   .modal-btn:hover,
   .modal-btn:focus {
-    border-color: var(--accent-color);
+    border-color: $accent-color;
   }
   
   .modal-icon-close:hover,
   .modal-icon-close:focus {
-    fill: var(--accent-color);
+    fill: $accent-color;
   }
   
   .modal-form {
@@ -87,7 +87,7 @@
     font-weight: 400;
     font-size: 12px;
     letter-spacing: 0.01em;
-    color: var(--email-color);
+    color: $email-color;
     margin-bottom: 4px;
   }
   
@@ -96,7 +96,7 @@
   }
   
   .modal-position:focus-within .modal-icon {
-    fill: var(--accent-color);
+    fill: $accent-color;
   }
   
   .form-input {
@@ -121,7 +121,7 @@
   }
   
   .form-input:focus-within {
-    border-color: var(--accent-color);
+    border-color: $accent-color;
   }
   
   .feedback {
@@ -135,7 +135,7 @@
   }
   
   .feedback:focus-within {
-    border: 1px solid var(--accent-color);
+    border: 1px solid $accent-color;
   }
   
   .feedback::placeholder {
@@ -162,11 +162,11 @@
     font-size: 14px;
     line-height: 171%;
     letter-spacing: 0.03em;
-    color: var(--email-color);
+    color: $email-color;
   }
   
   .form-link {
-    color: var(--accent-color);
+    color: $accent-color;
   }
   
   .modal-submit {
@@ -175,12 +175,12 @@
     line-height: 187%;
     letter-spacing: 0.06em;
     text-align: center;
-    color: var(--title-big-color);
+    color: $title-big-color;
     border-radius: 4px;
     width: 200px;
     height: 50px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    background-color: var(--accent-color);
+    background-color: $accent-color;
     padding: 10px 57px;
     display: flex;
     margin-left: auto;
@@ -197,7 +197,7 @@
   
   .modal-submit:focus,
   .modal-submit:hover {
-    background-color: var(--title-big-color);
-    color: var(--accent-color);
+    background-color: $title-big-color;
+    color: $accent-color;
     cursor: pointer;
   } 

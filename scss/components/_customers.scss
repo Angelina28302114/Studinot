@@ -3,7 +3,7 @@
     font-size: 36px;
     letter-spacing: 0.03em;
     text-align: center;
-    color: var(--menu-color);
+    color: $menu-color;
     margin-top: 94px;
   }
   
@@ -19,7 +19,7 @@
     width: 170px;
     height: 92px;
     border-radius: 4px;
-    border: 1px solid var(--color-svg);
+    border: 1px solid  $color-svg;
     padding: 24px 45px;
   
     transition-property: color;
@@ -29,7 +29,7 @@
   
   .customers-list > .customers-item:hover,
   .customers-list > .customers-item:focus {
-    border-color: var(--accent-color);
+    border-color: $accent-color;
     cursor: pointer;
   }
   
@@ -37,7 +37,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: var(--color-svg);
+    color:  $color-svg;
   }
   
   .customers-svg {
@@ -50,5 +50,5 @@
   
   .customers-svg:hover,
   .customers-svg:focus {
-    fill: var(--accent-color);
+    fill: $accent-color;
   } 

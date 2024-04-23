@@ -36,8 +36,8 @@
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    fill: var(--color-svg);
-    background-color: var(--title-big-color);
+    fill:  $color-svg;
+    background-color: $title-big-color;
   
   
   
@@ -48,12 +48,12 @@
   
   .section-img-link:hover,
   .section-img-link:focus {
-    fill: var(--title-big-color);
-    background-color: var(--accent-color);
+    fill: $title-big-color;
+    background-color: $accent-color;
   }
   
   .section-img-title {
-    color: var(--menu-color);
+    color: $menu-color;
     text-align: center;
     font-size: 16px;
     font-style: normal;
@@ -74,12 +74,12 @@
   .section-img-list>.section-img-item:focus{
     cursor: pointer;
     border-radius: 0px 0px 4px 4px;
-    background: #FFF;
+    background-color: $title-big-color;
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
   }
   
    .section-img-text {
-    color: var(--email-color);
+    color: $email-color;
     text-align: center;
     font-family: Roboto;
     font-size: 16px;
