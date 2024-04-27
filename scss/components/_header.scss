@@ -135,7 +135,7 @@
       cursor: pointer;
   }
   
-  .address-itee{
+  .address__address-itee{
       color: $email-color;
       font-size: 14px;
       font-style: normal;
@@ -147,10 +147,10 @@
       transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
 
-  .address-itee:hover,
-  .address-itee:focus {
-      color: $accent-color;
-      cursor: pointer;
+  .address__address-itee:hover,
+  .address__address-itee:focus {
+  color: $accent-color;
+  cursor: pointer;
 }
 
   .address-item{

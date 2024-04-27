@@ -182,7 +182,7 @@ a {
   cursor: pointer;
 }
 
-.address-itee {
+.address__address-itee {
   color: #757575;
   font-size: 14px;
   font-style: normal;
@@ -193,8 +193,8 @@ a {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.address-itee:hover,
-.address-itee:focus {
+.address__address-itee:hover,
+.address__address-itee:focus {
   color: #2196F3;
   cursor: pointer;
 }
@@ -482,7 +482,7 @@ a {
   padding-bottom: 94px;
 }
 
-.section-img-list-two {
+.social-list {
   display: flex;
   justify-content: center;
   gap: 10px;
@@ -490,12 +490,12 @@ a {
   margin-bottom: 30px;
 }
 
-.section-img-list-two > .section-img-item-two {
+.social-list > .social-list__social-item {
   width: 44px;
   height: 44px;
 }
 
-.section-img-link {
+.social-item__social-link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -509,8 +509,8 @@ a {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.section-img-link:hover,
-.section-img-link:focus {
+.social-item__social-link:hover,
+.social-item__social-link:focus {
   fill: #FFF;
   background-color: #2196F3;
 }
@@ -785,7 +785,7 @@ a {
   margin-top: 12px;
 }
 
-.footer-address-item {
+.footer-list__footer-item {
   color: #FFF;
   font-size: 14px;
   font-weight: 400;
@@ -798,8 +798,8 @@ a {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-address-item:hover,
-.footer-address-item:focus {
+.footer-list__footer-item:hover,
+.footer-list__footer-item:focus {
   color: #2196F3;
 }
 
@@ -807,7 +807,7 @@ a {
   margin-right: 70px;
 }
 
-.footer-address-text {
+.footer-list__footer-text {
   line-height: 1.7;
   color: rgba(255, 255, 255, 0.6);
   font-size: 14px;
@@ -820,23 +820,23 @@ a {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-address-text:hover,
-.footer-address-text:focus {
+.footer-list__footer-text:hover,
+.footer-list__footer-text:focus {
   color: #2196F3;
 }
 
-.footer-list-two {
+.social-list-two {
   display: flex;
   gap: 10px;
   margin-top: 20px;
 }
 
-.footer-list-two > .footer-item-two {
+.social-list-two > .social-list-two__social-item-two {
   width: 44px;
   height: 44px;
 }
 
-.footer-link {
+.social-item__social-link-two {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -850,8 +850,8 @@ a {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-link:hover,
-.footer-link:focus {
+.social-item__social-link-two:hover,
+.social-item__social-link-two:focus {
   fill: #FFF;
   background-color: #2196F3;
 }

@@ -15,8 +15,8 @@
     padding-top: 94px;
     padding-bottom: 94px;
   }
-  
-  .section-img-list-two {
+
+  .social-list {
     display: flex;
     justify-content: center;
     gap: 10px;
@@ -24,12 +24,12 @@
     margin-bottom: 30px;
   }
   
-  .section-img-list-two > .section-img-item-two {
+  .social-list > .social-list__social-item {
     width: 44px;
     height: 44px;
   }
   
-  .section-img-link {
+  .social-item__social-link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,8 +46,8 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
   
-  .section-img-link:hover,
-  .section-img-link:focus {
+  .social-item__social-link:hover,
+  .social-item__social-link:focus {
     fill: $title-big-color;
     background-color: $accent-color;
   }
