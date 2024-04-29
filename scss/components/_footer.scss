@@ -74,12 +74,12 @@
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
- }
 
- .footer-list__footer-item:hover,
- .footer-list__footer-item:focus {
-  color: $accent-color;
-}
+  &:hover,
+  &:focus {
+   color: $accent-color;
+ }
+ }
 
  .footer-box-one {
   margin-right: 70px;
@@ -97,12 +97,12 @@
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-   } 
 
-   .footer-list__footer-text:hover,
-   .footer-list__footer-text:focus {
-    color: $accent-color;
-  }
+    &:hover,
+    &:focus {
+     color: $accent-color;
+   }
+   } 
   
   .social-list-two {
     display: flex;
@@ -128,12 +128,12 @@
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.social-item__social-link-two:hover,
-.social-item__social-link-two:focus {
+  &:hover,
+  &:focus {
   fill: $title-big-color;
   background-color: $accent-color;
+}
 }
 
 /* footer-three-box */

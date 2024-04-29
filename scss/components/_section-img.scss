@@ -44,12 +44,12 @@
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  
-  .social-item__social-link:hover,
-  .social-item__social-link:focus {
-    fill: $title-big-color;
-    background-color: $accent-color;
+
+    &:hover,
+    &:focus {
+      fill: $title-big-color;
+      background-color: $accent-color;
+    }
   }
   
   .section-img-title {
