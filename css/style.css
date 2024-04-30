@@ -793,9 +793,7 @@ a {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.footer-list__footer-item:hover,
-.footer-list__footer-item:focus {
+.footer-list__footer-item:hover, .footer-list__footer-item:focus {
   color: #2196F3;
 }
 
@@ -815,9 +813,7 @@ a {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.footer-list__footer-text:hover,
-.footer-list__footer-text:focus {
+.footer-list__footer-text:hover, .footer-list__footer-text:focus {
   color: #2196F3;
 }
 
@@ -845,9 +841,7 @@ a {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.social-item__social-link-two:hover,
-.social-item__social-link-two:focus {
+.social-item__social-link-two:hover, .social-item__social-link-two:focus {
   fill: #FFF;
   background-color: #2196F3;
 }
