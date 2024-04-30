@@ -1,4 +1,4 @@
-.section-warning-title {
+.warning-title {
     color: $menu-color;
     font-size: 14px;
     font-style: normal;
@@ -9,7 +9,7 @@
     text-transform: uppercase;
   }
   
-  .section-warning-text {
+  .warning-text {
     color: $email-color;
     font-size: 14px;
     line-height: 1.7;
@@ -107,16 +107,16 @@
     padding: 25px 100px;
   }
   
-  .section-warning-list{
+  .warning-list{
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
    }
   
-   .section-warning-list > .section-warning-item {
+   .warning-list > .warning-list__warning-item {
     flex-basis: calc((100% - 90px) / 4);
    }
   
-   .section-warning {
+   .warning {
     padding-top: 94px;
   }

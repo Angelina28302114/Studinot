@@ -102,7 +102,7 @@
     transform: scaleX(1);
   }
 
-  .header-menu-item{
+  .header-menu-list__header-menu-item {
       display: flex;
       padding-left: 0px;
       color: $email-color; 
@@ -112,11 +112,11 @@
       font-weight: 500;
       line-height: normal;
       letter-spacing: 0.28px; 
+
+      &:not(:last-child){
+        margin-right: 50px; 
+   } 
   }
-  
-  .header-menu-item:not(:last-child){
-       margin-right: 50px; 
-  } 
   
   .header-menu-list {
     display: flex;
@@ -129,11 +129,11 @@
     font-weight: 500;
     line-height: normal;
     letter-spacing: 0.28px;
-  }
-  
-  .header-menu-list:not(:last-child){
+
+    &:not(:last-child){
       margin-right: 50px;
   } 
+  }
       
   .header > .container{
       display: flex;
@@ -167,33 +167,34 @@
     }
   }
 
-  .address-item{
-      margin-right: 50px;
-  }
+  // .address-item{
+  //     margin-right: 50px;
+  // }
    
   .address-item{
        padding-top: 32px;
        padding-bottom: 32px;
+       margin-right: 50px;
        color: $email-color;
+
+       &:hover { 
+        color: $accent-color;
+        // cursor: var(--cursor);
+        cursor: pointer;
+      }
   }
    
   .address-iteem {
        padding-top: 32px;
        padding-bottom: 32px;
        color: $email-color;
-  }
-   
-  .address-iteem:not(:first-child){
-       margin-left: 50px; 
+
+       &:not(:first-child){
+        margin-left: 50px; 
+   }
   }
    
   .address-svg {
       margin-right: 10px;
       fill: currentColor;
-  }
-
-  .address-item:hover { 
-    color: $accent-color;
-    // cursor: var(--cursor);
-    cursor: pointer;
   }
