@@ -61,6 +61,11 @@ a {
   line-height: normal;
 }
 
+.logo:hover,
+.logo:focus {
+  color: #F5F4FA;
+}
+
 .header {
   display: flex;
   border-bottom: 1px solid #ececec;
@@ -73,21 +78,16 @@ a {
   z-index: 100; */
 }
 
-.header-logo {
-  font-size: 26px;
-  font-family: "Raleway", sans-serif;
-  color: #000;
-  font-style: normal;
-  letter-spacing: 0.78px;
-  padding-top: 24px;
-  font-family: Raleway;
-  font-weight: 700;
-  line-height: normal;
-}
-
 .header-menu:not(:last-child) {
   margin-right: 50px;
   color: #212121;
+}
+
+.header-logo--style {
+  color: #000;
+}
+.header-logo--style:hover, .header-logo--style:focus {
+  color: #2196F3;
 }
 
 .header-menu {
@@ -151,7 +151,7 @@ a {
   margin-right: 50px;
 }
 
-.header-menu-itee {
+.header-menu-list {
   display: flex;
   padding-left: 0px;
   padding-top: 32px;
@@ -164,7 +164,7 @@ a {
   letter-spacing: 0.28px;
 }
 
-.header-menu-itee:not(:last-child) {
+.header-menu-list:not(:last-child) {
   margin-right: 50px;
 }
 
@@ -719,25 +719,6 @@ a {
   padding: 63px 24px;
 }
 
-.footer-address-logo {
-  color: #2196F3;
-  font-family: "Raleway", sans-serif;
-  font-size: 26px;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: 0.78px;
-  display: block;
-  margin-bottom: 20px;
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.footer-address-logo:hover,
-.footer-address-logo:focus {
-  color: #FFF;
-}
-
 .footer-box {
   flex-basis: calc(50% - 15px);
 }
@@ -757,18 +738,13 @@ a {
   padding-bottom: 60px;
 }
 
-.footer-logo {
+.footer-logo--style {
   color: #FFF;
-  font-family: Raleway;
-  font-size: 26px;
-  font-style: normal;
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.footer-logo:hover,
-.footer-logo:focus {
+.footer-logo--style:hover, .footer-logo--style:focus {
   color: #2196F3;
 }
 
@@ -789,6 +765,7 @@ a {
   letter-spacing: 0.42px;
   display: block;
   margin-bottom: 9px;
+  margin-top: 20px;
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
