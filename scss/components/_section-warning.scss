@@ -1,4 +1,4 @@
-.warning-title {
+.warning-list__warning-title {
     color: $menu-color;
     font-size: 14px;
     font-style: normal;
@@ -9,7 +9,7 @@
     text-transform: uppercase;
   }
   
-  .warning-text {
+  .warning-list__warning-text {
     color: $email-color;
     font-size: 14px;
     line-height: 1.7;

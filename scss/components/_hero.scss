@@ -1,4 +1,4 @@
-.section {
+.hero {
     background-color: $back-background;
     padding-top: 200px;
     padding-bottom: 200px;
@@ -10,7 +10,7 @@
     margin-right: auto;
   }
   
-  .section-title {
+  .hero__hero-title {
     text-align: center;
     font-size: 44px;
     font-weight: 900;
@@ -29,7 +29,7 @@
     }
     
   
-  .section-button {
+  .hero__hero-button {
       color: $accent-color;
       font-size: 16px;
       color: white;
