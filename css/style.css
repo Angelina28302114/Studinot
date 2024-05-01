@@ -465,7 +465,7 @@ a {
   background-color: #ffffff;
 }
 
-.section-img {
+.team {
   background-color: #F5F4FA;
   padding-top: 94px;
   padding-bottom: 94px;
@@ -502,7 +502,7 @@ a {
   background-color: #2196F3;
 }
 
-.section-img-title {
+.team-title {
   color: #212121;
   text-align: center;
   font-size: 16px;
@@ -527,7 +527,7 @@ a {
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 
-.section-img-text {
+.team-text {
   color: #757575;
   text-align: center;
   font-family: Roboto;
