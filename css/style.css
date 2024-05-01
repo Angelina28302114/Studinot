@@ -551,11 +551,15 @@ a {
   border-radius: 4px;
   border: 1px solid #afb1b8;
   padding: 24px 45px;
-  border-color: #2196F3;
-  cursor: pointer;
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.customers-list > .customers-list__customers-item:hover,
+.customers-list > .customers-list__customers-item:focus {
+  border-color: #2196F3;
+  cursor: pointer;
 }
 
 .customers-list__customers-link {
