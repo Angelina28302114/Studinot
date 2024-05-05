@@ -5,11 +5,7 @@
     justify-content: center;
   }
   
-  .section-portfolio-text {
-    padding-bottom: 94px;
-  }
-  
-  .portfolio-buton {
+  .portfolio-list__portfolio-buton {
     border-radius: 4px;
    background: #F5F4FA;
    font-size: 20px;
@@ -45,7 +41,7 @@
       }
   }
   
-  .section-portfolio-title{
+  .portfolio-list-two__portfolio-title {
    color: $menu-color;
    font-size: 18px;
    font-style: normal;
@@ -61,8 +57,29 @@
    padding-left: 24px;
    padding-bottom: 4px;
    }
+
+   .portfolio-list-two__portfolio-text {
+    color: $email-color;
+    font-size: 14px;
+    line-height: 1.7;
+    display: block;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+    letter-spacing: 0.42px;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 1.875; 
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.48px;  
+    
+    padding-right: 24px;
+    padding-left: 24px;
+    padding-bottom: 20px;
+    }
   
-   .portfolio-item {
+   .portfolio-list__portfolio-item {
     padding-top: 94px;
     /* padding-bottom: 50px; */
   }
@@ -71,26 +88,28 @@
     padding-right: 30px;
   }
    
-   .section-portfolio-text{
+   .portfolio-list-two {
       display: flex;
       flex-wrap: wrap;
       gap: 30px;
       justify-content: center;
+      padding-bottom: 94px;
     }
   
-    .section-portfolio-text>.section-portfolio-text-item:hover,
-    .section-portfolio-text>.section-portfolio-text-item:focus{
+    .portfolio-list-two > .portfolio-list-two__portfolio-item:hover,
+    .portfolio-list-two > .portfolio-list-two__portfolio-item:focus{
+      flex-basis: calc((100% - 60px) / 3);
       cursor: pointer;
       border: 1px solid #EEE;
       background: #FFF;
       box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
     }
   
-    .section-portfolio-text > .section-portfolio-text-item {
-      flex-basis: calc((100% - 60px) / 3);
-    }
+    // .portfolio-list-two > .portfolio-list-two__portfolio-item {
+    //   flex-basis: calc((100% - 60px) / 3);
+    // }
   
-    .section-portfolio-link:hover .overley{
+    .portfolio-list-two__portfolio-link:hover .overley{
       transform: translateY(0);
     }
   
