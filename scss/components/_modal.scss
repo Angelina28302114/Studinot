@@ -190,10 +190,10 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
   
-  .modal-submit {
-    @extend %btn;
-    letter-spacing: 0.06em;
-    padding: 10px 57px;
-    font-weight: 700;
-    line-height: 187%;
-  } 
+.modal-submit {
+  @extend %btn;
+  letter-spacing: 0.06em;
+  padding: 10px 57px;
+  font-weight: 700;
+  line-height: 187%;
+} 
