@@ -1,0 +1,23 @@
+%btn {
+    color: $accent-color;
+    font-size: 16px;
+    color: white;
+    background-color:  $accent-color;
+    text-decoration: $accent-color;
+    border: none;
+    border-radius: 4px;
+    line-height: 1.875; 
+    display: flex;
+    margin: 0px auto;
+    cursor: pointer;
+
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+   
+&:hover,
+&:focus {
+  background-color: $title-big-color;
+  color: $accent-color;
+} 
+}
