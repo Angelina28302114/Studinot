@@ -1,35 +1,73 @@
 .hero {
-    background-color: $back-background;
+  background-color: $back-background;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../img/hero.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media screen and (min-width: 480px) {
+    max-width: 480px;
+    padding-top: 118px;
+    padding-bottom: 118px;
+  }
+
+  @media screen and (min-width: 768px) {
+    max-width: 768px;
+    padding-top: 128px;
+    padding-bottom: 128px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    max-width: 1600px;
     padding-top: 200px;
     padding-bottom: 200px;
-    background-image: linear-gradient(rgba(47, 48, 58, 0.40), rgba(47, 48, 58, 0.40)), url(../img/hero.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    max-width: 1600px;
-    margin-left: auto;
-    margin-right: auto;
   }
-  
-  .hero__hero-title {
-    text-align: center;
-    font-size: 44px;
-    font-weight: 900;
-    line-height: 1.36; 
-    color: $title-big-color;
+}
+
+.hero__hero-title {
+  text-align: center;
+  font-weight: 900;
+  line-height: 1.36;
+  color: $title-big-color;
+  font-family: Roboto;
+  font-style: normal;
+  line-height: 60px;
+  letter-spacing: 2.64px;
+  text-transform: uppercase;
+  margin-right: auto;
+  margin-left: auto;
+
+  @media screen and (min-width: 480px) {
+    width: 360px;
+    font-size: 26px;
     margin-bottom: 30px;
-    font-family: Roboto;
-    font-style: normal;
-    line-height: 60px; 
-    letter-spacing: 2.64px;
-    text-transform: uppercase;
-  
-    margin-right: auto;
-    margin-left: auto;
-    width: 696px;
-    }
-    
-  
-  .hero__hero-button {
-    @extend %btn;
-    padding: 10px 32px;
+    line-height: 162%;
+    letter-spacing: 0.06em;
   }
+
+  @media screen and (min-width: 768px) {
+    width: 360px;
+    font-size: 26px;
+    margin-bottom: 37px;
+    line-height: 162%;
+    letter-spacing: 0.06em;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 696px;
+    font-size: 44px;
+    margin-bottom: 30px;
+    line-height: 136%;
+    letter-spacing: 0.06em;
+  }
+}
+
+.hero__hero-button {
+  @extend %btn;
+  padding: 10px 32px;
+}
