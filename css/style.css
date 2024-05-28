@@ -852,16 +852,34 @@ a {
   fill: #2196F3;
 }
 
-.portfolio-list {
-  gap: 8px;
-  display: flex;
-  margin-bottom: 50px;
-  justify-content: center;
+@media screen and (min-width: 480px) {
+  .portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding-top: 60px;
+    gap: 8px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .portfolio-list {
+    padding-top: 60px;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .portfolio-list {
+    gap: 8px;
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: center;
+    padding-top: 94px;
+  }
 }
 
 .portfolio-list__portfolio-buton {
   border-radius: 4px;
-  background: #F5F4FA;
+  background: #f5f4fa;
   font-size: 20px;
   border: none;
   text-decoration: #212121;
@@ -927,11 +945,6 @@ a {
   padding-bottom: 20px;
 }
 
-.portfolio-list__portfolio-item {
-  padding-top: 94px;
-  /* padding-bottom: 50px; */
-}
-
 .section-portfolio-img {
   padding-right: 30px;
 }
@@ -946,11 +959,28 @@ a {
 
 .portfolio-list-two > .portfolio-list-two__portfolio-item:hover,
 .portfolio-list-two > .portfolio-list-two__portfolio-item:focus {
-  flex-basis: calc((100% - 60px) / 3);
   cursor: pointer;
-  border: 1px solid #EEE;
-  background: #FFF;
+  border: 1px solid #eee;
+  background: #fff;
   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+}
+@media screen and (min-width: 480px) {
+  .portfolio-list-two > .portfolio-list-two__portfolio-item:hover,
+  .portfolio-list-two > .portfolio-list-two__portfolio-item:focus {
+    flex-basis: calc((100% - 30px) / 1);
+  }
+}
+@media screen and (min-width: 768px) {
+  .portfolio-list-two > .portfolio-list-two__portfolio-item:hover,
+  .portfolio-list-two > .portfolio-list-two__portfolio-item:focus {
+    flex-basis: calc((100% - 60px) / 2);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .portfolio-list-two > .portfolio-list-two__portfolio-item:hover,
+  .portfolio-list-two > .portfolio-list-two__portfolio-item:focus {
+    flex-basis: calc((100% - 60px) / 3);
+  }
 }
 
 .portfolio-list-two__portfolio-link:hover .overley {
