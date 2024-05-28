@@ -1,10 +1,23 @@
 .customers__customers-title {
     font-weight: 700;
-    font-size: 36px;
     letter-spacing: 0.03em;
     text-align: center;
     color: $menu-color;
-    margin-top: 94px;
+
+    @media screen and (min-width: 480px) {
+      font-size: 28px;
+      margin-top: 60px;
+      }
+      
+      @media screen and (min-width: 768px) {
+        font-size: 28px;
+        margin-top: 60px;
+      }
+      
+      @media screen and (min-width: 1200px) {
+        font-size: 36px;
+        margin-top: 94px;
+      }
   }
   
   .customers-list {
@@ -13,11 +26,17 @@
     @media screen and (min-width: 480px) {
       margin-top: 30px;
       margin-bottom: 60px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
       }
       
       @media screen and (min-width: 768px) {
         margin-top: 30px;
         margin-bottom: 60px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
       }
       
       @media screen and (min-width: 1200px) {
@@ -29,7 +48,6 @@
   }
   
   .customers-list > .customers-list__customers-item {
-    width: 170px;
     height: 92px;
     border-radius: 4px;
     border: 1px solid  $color-svg;
@@ -38,6 +56,18 @@
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    @media screen and (min-width: 480px) {
+      width: 210px;
+      }
+      
+      @media screen and (min-width: 768px) {
+        width: 226px;
+      }
+      
+      @media screen and (min-width: 1200px) {
+        width: 170px;
+      }
   }
   
   .customers-list > .customers-list__customers-item:hover,
