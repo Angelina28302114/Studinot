@@ -982,6 +982,11 @@ a {
   padding: 63px 24px;
 }
 
+@media screen and (min-width: 768px) {
+  .footer-box-three {
+    display: flex;
+  }
+}
 .footer-box {
   flex-basis: calc(50% - 15px);
 }
