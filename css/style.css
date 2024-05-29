@@ -852,29 +852,12 @@ a {
   fill: #2196F3;
 }
 
-@media screen and (min-width: 480px) {
-  .portfolio-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    padding-top: 60px;
-    gap: 8px;
-  }
-}
-@media screen and (min-width: 768px) {
-  .portfolio-list {
-    padding-top: 60px;
-    justify-content: center;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .portfolio-list {
-    gap: 8px;
-    display: flex;
-    margin-bottom: 50px;
-    justify-content: center;
-    padding-top: 94px;
-  }
+.portfolio-list {
+  gap: 8px;
+  display: flex;
+  margin-bottom: 50px;
+  justify-content: center;
+  padding-top: 94px;
 }
 
 .portfolio-list__portfolio-buton {
@@ -943,6 +926,10 @@ a {
   padding-right: 24px;
   padding-left: 24px;
   padding-bottom: 20px;
+}
+
+.portfolio-list__portfolio-item {
+  padding-top: 94px;
 }
 
 .section-portfolio-img {
