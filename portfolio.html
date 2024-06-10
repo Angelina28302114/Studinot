@@ -19,8 +19,8 @@
 
         <nav class="header-nav">
             <ul class="header-menu-list">
-                <li class="header-menu-list__header-menu-item"><a class="header-menu" href="./index.html">Студія</a></li>
-                <li class="header-menu-list__header-menu-item"><a class="header-menu current"  href="#">Портфоліо</a></li> 
+                <li class="header-menu-list__header-menu-item"><a class="header-menu current" href="#">Студія</a></li>
+                <li class="header-menu-list__header-menu-item"><a class="header-menu"  href="./portfolio.html">Портфоліо</a></li> 
                 <li class="header-menu-list__header-menu-item"><a class="header-menu"  href="#">Контакти</a></li>
             </ul>
         </nav>
@@ -36,8 +36,24 @@
             </svg>
             +38 096 111 11 11</a>
     </address>
+
+<!-- button mobile -->
+<button class="btn-mobile" data-menu-button>
+    <svg class="icon-mobile" aria-label="Перемикач меню">
+        <use class="icon-open" href="./svg/symbol-defs.svg#icon-menu-menu"></use>
+        <use class="icon-close" href="./svg/symbol-defs.svg#icon-close-menu"></use>
+    </svg>
+</button>
 </div>
     </header> 
+    <!-- мобільне меню -->  
+    <div class="mobile-menu" data-menu>
+        <ul class="mobile-list-menu">
+            <li class="mobile-list-menu__item"><a href="./index.html" class="mobile-list-menu__link">Студія</a></li>
+            <li class="mobile-list-menu__item"><a href="#" class="mobile-list-menu__link">Портфоліо</a></li>
+            <li class="mobile-list-menu__item"><a href="#" class="mobile-list-menu__link">Контакти</a></li>
+        </ul>
+    </div>
 
     <main>
 
@@ -209,7 +225,7 @@
     </main>
 
 <!-- footer -->
-<!-- <footer class="footer">
+<footer class="footer">
 
     <div class="container">
     <div class="footer-box">
@@ -265,7 +281,10 @@
 
 </div>
 
-</footer> -->
+</footer>
+
+<script src="./js/modal.js" type="module"></script>
+<script src="./js/mobile-menu.js" type="module"></script>
 
 </body>
 </html>
