@@ -1,0 +1,35 @@
+.btn-mobile {
+  position: relative;
+
+  z-index: 120;
+  background-color: transparent;
+  border: none;
+
+  display: -webkit-box;
+
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+}
+
+.icon-mobile {
+  position: absolute;
+  left: 410px;
+  top: 20px;
+  width: 40px;
+  height: 40px;
+}
+
+.icon-close {
+  display: none;
+}
+
+.is-open {
+  .icon-close {
+    display: block;
+  }
+
+  .icon-open {
+    display: none;
+  }
+}
