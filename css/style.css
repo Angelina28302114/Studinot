@@ -369,6 +369,18 @@ a {
   right: 0;
 }
 
+.mobile-menu-div {
+  margin: 48px 40px;
+}
+
+.mobile-list-menu {
+  margin-bottom: 302px;
+}
+
+.mobile-list-menu__item {
+  margin-bottom: 32px;
+}
+
 .mobile-list-menu__link {
   font-weight: 500;
   font-size: 40px;
@@ -376,11 +388,16 @@ a {
   color: #212121;
 }
 
+.mobile-menu-address {
+  margin-bottom: 64px;
+}
+
 .mobile-menu__address-itee {
   font-weight: 500;
   font-size: 34px;
   letter-spacing: 0.02em;
   color: #2196F3;
+  margin-bottom: 32px;
 }
 
 .mobile-menu__address-itee-two {
@@ -388,6 +405,10 @@ a {
   font-size: 24px;
   letter-spacing: 0.02em;
   color: #757575;
+}
+
+.mobile-menu-list-two {
+  display: flex;
 }
 
 .mobile-menu-link-two {

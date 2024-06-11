@@ -71,6 +71,11 @@ transition: right 0.5s;
     font-size: 40px;
     letter-spacing: 0.02em;
     color: $menu-color;
+
+    &:hover,
+    &:focus {
+      color: $accent-color;
+    }
 }
 
 .mobile-menu-box {
@@ -87,6 +92,11 @@ transition: right 0.5s;
     letter-spacing: 0.02em;
     color: $accent-color;
     margin-bottom: 32px;
+
+    &:hover,
+    &:focus {
+      color: $email-color;
+    }
 }
 
 .mobile-menu__address-itee-two {
@@ -94,6 +104,11 @@ transition: right 0.5s;
     font-size: 24px;
     letter-spacing: 0.02em;
     color: $email-color;
+
+    &:hover,
+    &:focus {
+      color: $accent-color;
+    }
 }
 
 .mobile-menu-list-two {
@@ -110,6 +125,11 @@ display: flex;
     line-height: 122%;
     letter-spacing: 0.02em;
     color: $accent-color;
+
+    &:hover,
+    &:focus {
+      color: $email-color;
+    }
 }
 
 .mobile-menu-hr {
