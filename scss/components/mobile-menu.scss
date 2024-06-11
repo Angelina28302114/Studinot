@@ -78,11 +78,17 @@ transition: right 0.5s;
 }
 
 .mobile-menu__address-itee {
-
+    font-weight: 500;
+    font-size: 34px;
+    letter-spacing: 0.02em;
+    color: $accent-color;
 }
 
 .mobile-menu__address-itee-two {
-
+    font-weight: 500;
+    font-size: 24px;
+    letter-spacing: 0.02em;
+    color: $email-color;
 }
 
 .mobile-menu-list-two {
@@ -94,9 +100,15 @@ transition: right 0.5s;
 }
 
 .mobile-menu-link-two {
-
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 122%;
+    letter-spacing: 0.02em;
+    color: $accent-color;
 }
 
 .mobile-menu-hr {
-
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    width: 22px;
+    height: 0px;
 }
