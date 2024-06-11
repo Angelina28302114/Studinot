@@ -376,6 +376,34 @@ a {
   color: #212121;
 }
 
+.mobile-menu__address-itee {
+  font-weight: 500;
+  font-size: 34px;
+  letter-spacing: 0.02em;
+  color: #2196F3;
+}
+
+.mobile-menu__address-itee-two {
+  font-weight: 500;
+  font-size: 24px;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+.mobile-menu-link-two {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 122%;
+  letter-spacing: 0.02em;
+  color: #2196F3;
+}
+
+.mobile-menu-hr {
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  width: 22px;
+  height: 0px;
+}
+
 .hero {
   background-color: #2F303A;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/hero.png);
