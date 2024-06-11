@@ -55,11 +55,15 @@ transition: right 0.5s;
 }
 }
 // mobile menu
+.mobile-menu-div {
+  margin: 48px 40px;
+}
 .mobile-list-menu {
-
+  margin-bottom: 302px;
 }
 
 .mobile-list-menu__item {
+  margin-bottom: 32px;
 }
 
 .mobile-list-menu__link {
@@ -74,7 +78,7 @@ transition: right 0.5s;
 }
 
 .mobile-menu-address {
-
+  margin-bottom: 64px;
 }
 
 .mobile-menu__address-itee {
@@ -82,6 +86,7 @@ transition: right 0.5s;
     font-size: 34px;
     letter-spacing: 0.02em;
     color: $accent-color;
+    margin-bottom: 32px;
 }
 
 .mobile-menu__address-itee-two {
@@ -92,7 +97,7 @@ transition: right 0.5s;
 }
 
 .mobile-menu-list-two {
-
+display: flex;
 }
 
 .mobile-menu-item{
