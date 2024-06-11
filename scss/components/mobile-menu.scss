@@ -60,14 +60,13 @@ transition: right 0.5s;
 }
 
 .mobile-list-menu__item {
+}
+
+.mobile-list-menu__link {
     font-weight: 500;
     font-size: 40px;
     letter-spacing: 0.02em;
     color: $menu-color;
-}
-
-.mobile-list-menu__link {
-
 }
 
 .mobile-menu-box {
