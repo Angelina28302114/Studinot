@@ -1111,6 +1111,11 @@ a {
   justify-content: center;
   padding-bottom: 94px;
 }
+@media screen and (min-width: 768px) {
+  .portfolio-list-two {
+    justify-content: flex-start;
+  }
+}
 
 .portfolio-list-two > .portfolio-list-two__portfolio-item:hover,
 .portfolio-list-two > .portfolio-list-two__portfolio-item:focus {
