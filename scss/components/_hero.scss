@@ -1,105 +1,58 @@
 .hero {
-  background-color: $back-background;
+  background-size: cover;
+  background-position: center;
+  padding-top: 214px;
+  padding-bottom: 138px;
+  text-align: center;
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url(../img/hero.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  margin-left: auto;
-  margin-right: auto;
-
-  @media screen and (min-width: 480px) {
+    url(../mobile/hero@1x-mobile.png);
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
     background-image: linear-gradient(
-      rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-      url(../../mobile/hero@1x-mobile.png);
-      max-width: 480px;
-      padding-top: 118px;
-      padding-bottom: 118px;
-    }
-
-    @media (-webkit-min-device-retion:2), (min-resolution: 192dpi) {
-      background-image: linear-gradient(
-      rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-      url(../../mobile/hero@2x-mobile.png);
-    }
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../mobile/hero@2x-mobile.png);
+  }
 
   @media screen and (min-width: 768px) {
-    max-width: 768px;
-    padding-top: 128px;
-    padding-bottom: 128px;
+    padding-bottom: 233px;
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../tablet/hero@1x-tablet.png);
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: linear-gradient(
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)
+        ),
+        url(../tablet/hero@2x-tablet.png);
+    }
   }
-
   @media screen and (min-width: 1200px) {
-    max-width: 1600px;
-    padding-top: 200px;
-    padding-bottom: 200px;
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../img/hero.png);
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: linear-gradient(
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)
+        ),
+        url(../desktop/hero@2x-decktop.png);
+    }
   }
 }
-
-// .hero {
-//   background-color: #2f303a;
-//   background-repeat: no-repeat;
-//   margin-left: auto;
-//   margin-right: auto;
-//   display: flex;
-//   max-width: 1600px;
-  
-//   @media screen and (min-width: 480px) {
-//   background-image: linear-gradient(
-//   rgba(47, 48, 58, 0.4),
-//   rgba(47, 48, 58, 0.4)
-//   ),
-//   url(../web-studia/mobile/hero@1x-mobile.png);
-//   padding-top: 118px;
-//   padding-bottom: 118px;
-//   }
-  
-//   @media (-webkit-min-device-retio: 2), (min-resolution: 192dpi) {
-//   background-image: linear-gradient(
-//   rgba(47, 48, 58, 0.4),
-//   rgba(47, 48, 58, 0.4)
-//   ),
-//   url(../web-studia/mobile/hero@2x-mobile.png);
-//   }
-  
-//   @media screen and (min-width: 481px) and (max-width: 768px) {
-//   background-image: linear-gradient(
-//   rgba(47, 48, 58, 0.4),
-//   rgba(47, 48, 58, 0.4)
-//   ),
-//   url(../../web-studia/tablet/hero@1x-tablet.png);
-//   padding-top: 128px;
-//   padding-bottom: 128px;
-//   }
-  
-//   @media (-webkit-min-device-retio: 2), (min-resolution: 192dpi) {
-//   background-image: linear-gradient(
-//   rgba(47, 48, 58, 0.4),
-//   rgba(47, 48, 58, 0.4)
-//   ),
-//   url(../../web-studia/tablet/hero@2x-tablet.png);
-//   }
-  
-//   @media screen and (min-width: 769px) and (max-width: 1200px) {
-//   background-image: linear-gradient(
-//   rgba(47, 48, 58, 0.4),
-//   rgba(47, 48, 58, 0.4)
-//   ),
-//   url(../../web-studia/hero.png);
-//   padding-top: 200px;
-//   padding-bottom: 200px;
-//   }
-  
-//   @media (-webkit-min-device-retio: 2), (min-resolution: 192dpi) {
-//   background-image: linear-gradient(
-//   rgba(47, 48, 58, 0.4),
-//   rgba(47, 48, 58, 0.4)
-//   ),
-//   url(../../web-studia/decktop/hero@2x-decktop.png);
-//   }
-//   }
 
 .hero__hero-title {
   text-align: center;
