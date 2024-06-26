@@ -570,7 +570,6 @@ a {
   height: 120px;
   background-image: url(../img/antenna.png);
   display: block;
-  /* background-size: contain; */
   background-repeat: no-repeat;
   background-position: center;
   margin-bottom: 30px;
@@ -599,7 +598,6 @@ a {
   height: 120px;
   background-image: url(../img/clock.png);
   display: block;
-  /* background-size: contain; */
   background-repeat: no-repeat;
   background-position: center;
   margin-bottom: 30px;
@@ -628,7 +626,6 @@ a {
   height: 120px;
   background-image: url(../img/diagram.png);
   display: block;
-  /* background-size: contain; */
   background-repeat: no-repeat;
   background-position: center;
   margin-bottom: 30px;
@@ -657,7 +654,6 @@ a {
   height: 120px;
   background-image: url(../img/astronaut.png);
   display: block;
-  /* background-size: contain; */
   background-repeat: no-repeat;
   background-position: center;
   margin-bottom: 30px;
@@ -1322,7 +1318,6 @@ a {
   background-color: #2196F3;
 }
 
-/* footer-three-box */
 .footer-box__title {
   font-weight: 700;
   font-size: 14px;
@@ -1382,8 +1377,6 @@ a {
   text-align: center;
   color: #FFF;
   border-radius: 4px;
-  /* width: 200px;
-  height: 50px; */
   background-color: #2196F3;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   border: none;
@@ -1403,7 +1396,6 @@ a {
 
 .footer-form__svg-one {
   fill: currentColor;
-  /* margin-left: 10px; */
 }
 
 .backdrop {
