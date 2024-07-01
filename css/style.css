@@ -145,6 +145,10 @@ a {
   }
 }
 
+.mobile-current {
+  color: #2196F3;
+}
+
 .header > .container {
   display: flex;
   align-items: center;
