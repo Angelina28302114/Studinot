@@ -70,12 +70,16 @@ transition: right 0.5s;
     font-weight: 500;
     font-size: 40px;
     letter-spacing: 0.02em;
-    // color: $menu-color;
+    color: $menu-color;
 
     &:hover,
     &:focus {
       color: $accent-color;
     }
+}
+
+.mobile-list-menu__mobile-current {
+  color: #2196F3;
 }
 
 .mobile-menu-address {

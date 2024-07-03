@@ -145,10 +145,6 @@ a {
   }
 }
 
-.mobile-current {
-  color: #2196F3;
-}
-
 .header > .container {
   display: flex;
   align-items: center;
@@ -392,6 +388,10 @@ a {
   color: #212121;
 }
 .mobile-list-menu__link:hover, .mobile-list-menu__link:focus {
+  color: #2196F3;
+}
+
+.mobile-list-menu__mobile-current {
   color: #2196F3;
 }
 
